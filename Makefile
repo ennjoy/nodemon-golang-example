@@ -1,2 +1,2 @@
-run: main.go
+run:
 	nodemon --exec "go run" main.go
