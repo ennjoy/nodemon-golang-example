@@ -21,7 +21,7 @@ Install nodemon globally
 
 For easy launch of the application, I will create a Makefile.
 
-    run: main.go
+    run:
 	    nodemon --exec "go run" main.go
 
 Here to nodemon we pass the launch parameters and the application itself.
